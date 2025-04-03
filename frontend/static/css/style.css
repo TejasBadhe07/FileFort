@@ -54,3 +54,66 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+/* Dashboard Styles */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.dashboard-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e3c72;
+}
+
+.dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a5298;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    font-size: 14px;
+    color: #555;
+}
+
+.card-action {
+    margin-top: 10px;
+}
+
+.card-action button {
+    width: auto;
+    padding: 8px 12px;
+    background: #1e3c72;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card-action button:hover {
+    background: #2a5298;
+}

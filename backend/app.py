@@ -26,7 +26,7 @@ with app.app_context():
 # ✅ Route to Serve Login Page
 @app.route('/')
 def home():
-    return render_template('index.html')  # This is your login page
+    return render_template('index.html')  # This is login page
 
 # ✅ Register Route (GET = Show Form, POST = Register User)
 @app.route('/register', methods=['GET', 'POST'])
